@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    overflow: hidden;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.screen {
+    height: 100dvh;
+    width: 100dvw;
+}
